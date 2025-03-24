@@ -1,7 +1,8 @@
 from car import Car
 
-car1 = Car('A')
-car2 = Car('B')
+car1 = Car('Toyota')
+car2 = Car('Honda')
+
 print("Hello")
-print(car1.name)
-print(car2.name)
+car1.display_info()
+car2.display_info()
