@@ -4,5 +4,5 @@ class Car:
         self.name = brand
         self.model = model
 
-    def display_info(self)
+    def display_info(self):
         print(f"Car brand: {self.name}, Model:{self.model}")
