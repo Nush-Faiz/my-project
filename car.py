@@ -1,7 +1,7 @@
 from fuel import Fuel
 
 class Car:
-    def __init__(self,brand,model, speed=0, fuel_type):
+    def __init__(self,brand,model, speed=0, fuel_type="Petrol"):
         self.name = brand
         self.model = model
         self.speed = speed
